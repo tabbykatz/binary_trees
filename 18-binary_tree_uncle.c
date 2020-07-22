@@ -28,4 +28,3 @@ binary_tree_t *binary_tree_uncle(binary_tree_t *node)
 	/* an uncle is just a parent's sibling */
 	return (binary_tree_sibling(node->parent));
 }
-}
